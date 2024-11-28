@@ -1,5 +1,5 @@
 # Category_Aware Active Domain Adaptation
-Pytorch implementation for paper **Category-Aware Active Domain Adaptation**. The full code will be released shortly.
+Pytorch implementation for paper **Category-Aware Active Domain Adaptation**.
 
 # Abstract
 Active domain adaptation has shown promising results in enhancing unsupervised domain adaptation (DA), by actively selecting and annotating a small amount of unlabeled samples from the target domain. Despite its effectiveness in boosting overall performance, the gain usually concentrates on the categories that are readily improvable, while challenging categories that demand the utmost attention are often overlooked by existing models. To alleviate this discrepancy, we propose a novel category-aware active DA method that aims to boost the adaptation for the individual category without adversely affecting others. Specifically, our approach identifies the unlabeled data that are most important for the recognition of the targeted category. Our method assesses the impact of each unlabeled sample on the recognition loss of the target data via the influence function, which allows us to directly evaluate the sample importance, without relying on indirect measurements used by existing methods. Comprehensive experiments and in-depth explorations demonstrate the efficacy of our method on category-aware active DA over three datasets.
@@ -18,7 +18,7 @@ Active domain adaptation has shown promising results in enhancing unsupervised d
 We run our base DA methods based on the implementation of [Transfer Learning Library](https://github.com/thuml/Transfer-Learning-Library).
 We use the default setting the in their [example codes](https://github.com/thuml/Transfer-Learning-Library/tree/master/examples/domain_adaptation/image_classification) to run DANN.
 
-
+We provide the extracted representations for Ar->Cl in [here](https://drive.google.com/drive/folders/10L36ROhgzUVsYXHE941b7OvGurMBaozs?usp=sharing).
 
 
 # Acknowledgement
